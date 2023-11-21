@@ -38,11 +38,11 @@ async (Void, citel) => {
     const loadingBar = '█'.repeat(loadedBlocks);
 
     // Send the loading bar first
-    await Void.sendMessage(citel.chat, { text: `*Pong*\nLoading: [${loadingBar}] 100%`, edit: key });
+    await Void.sendMessage(citel.chat, { text: `*🌻❤️‍🩹Ping*\nLoading: [${loadingBar}] 100%`, edit: key });
 
     // Wait for a brief moment (you can customize this delay)
     await Secktor.sleep(1000);
 
     // Send the final ping message
-    return await Void.sendMessage(citel.chat, { text: `*Ping: ${pingValue} ms*` });
+    return await Void.sendMessage(citel.chat, { text: `*🧞‍♀️Ping: ${pingValue} 𝗠𝗗🐉❤*` });
 });
